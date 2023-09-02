@@ -1,0 +1,133 @@
+.nav-pills li a:hover {
+    background-color: #2EC896;
+}
+
+.custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+  .content {
+    margin-left: 40px;
+    padding: 30px;
+    width: 1000px;
+  }
+  
+  .content h1 {
+    font-size: 30px;
+  }
+  
+  .content form {
+    margin-top: 30px;
+  }
+  
+  .content label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content input[type="text"], .content textarea,.content select, .content input[type="file"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  
+
+  .content input[type="submit"]{
+    background-color: rgb(58, 71, 253);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: blue;
+  }
+
+  .status {
+    margin-left: 200px;
+    padding: 30px;
+    width: 326px;
+    background-color:white;
+    
+  }
+
+  svg {
+    width: 3.25em;
+    transform-origin: center;
+    animation: rotate4 2s linear infinite;
+   }
+   
+   circle {
+    fill: none;
+    stroke: hsl(214, 97%, 59%);
+    stroke-width: 2;
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    animation: dash4 1.5s ease-in-out infinite;
+   }
+   
+   @keyframes rotate4 {
+    100% {
+     transform: rotate(360deg);
+    }
+   }
+   
+   @keyframes dash4 {
+    0% {
+     stroke-dasharray: 1, 200;
+     stroke-dashoffset: 0;
+    }
+   
+    50% {
+     stroke-dasharray: 90, 200;
+     stroke-dashoffset: -35px;
+    }
+   
+    100% {
+     stroke-dashoffset: -125px;
+    }
+   }
+   
+   label{
+    font-size: 24px;
+   }
+   
+   div.loader{
+    margin-top: 30px;
+   }
+
+   label.loader{
+    margin-left: 15px;
+   }
+
+   
+  .retangulo-branco {
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 75%;
+    height: 700px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+  }
+
+.CadastrosClass{
+  padding: 90px;
+}
+
+.searchClass{
+  width: 400px;
+  border-radius: 20px;
+}

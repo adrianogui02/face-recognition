@@ -1,0 +1,165 @@
+.nav-pills li a:hover {
+  background-color: #2EC896;
+  border-top-left-radius: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.container {
+  /* /* position: absolute; */ */
+}
+
+.content {
+  margin-left: 40px;
+  padding: 30px;
+}
+
+.titulo {
+  /* position: absolute; */
+  top: -50px;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.custom-color {
+  background-color: #F7F8FC;
+}
+
+.custom-circle {
+  background-color: #141533;
+  border-top-right-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.retangulo-branco {
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  height: 2150px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+form#meu-formulario div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+form#meu-formulario label {
+  display: block;
+}
+
+form#meu-formulario input[type="submit"] {
+  display: block;
+  margin-top: 10px;
+}
+
+
+input[type="text"] {
+  width: 400px;
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  border: none;
+  height: 27px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+select {
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+#status {
+  width: 150px;
+  height: 30px;
+  display: block;
+}
+
+#instrucao {
+  width: 228px;
+  height: 30px;
+  display: block;
+}
+
+#endereco {
+  width: 600;
+  height: 30px;
+  display: block;
+}
+
+#complemento {
+  width: 400px;
+  height: 30px;
+  display: block;
+}
+
+#small {
+  width: 80px;
+  height: 30px;
+  display: block;
+}
+
+.add-dep-button {
+  /* position: absolute; */
+  bottom: 200px;
+  right: 870px;
+  background-color: #2164F0;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.doc-button {
+  /* position: absolute; */
+  bottom: 90px;
+  right: 840px;
+  background-color: #F3F3F3;
+  color: black;
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.captura {
+  display: block;
+  margin-top: 30px;
+}
+
+.retangulo-preto {
+  margin-top: 10px;
+  width: 773px;
+  height: 510px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="submit"], .content input[type="button"]{
+  /* position: absolute; */
+  bottom: 40px;
+  right: 60px;
+  background-color: #2164F0;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.forms{
+  margin-top: 30px;
+}
+
+.video-container {
+    position: relative;
+    width: 720px; /* Ajuste a largura conforme necessário */
+    height: 560px; /* Ajuste a altura conforme necessário */
+    border-radius: 30px;
+}
+
+#canvasRecon {
+    position: absolute;
+    width: 720px; /* Ajuste a largura conforme necessário */
+    height: 560px; /* Ajuste a altura conforme necessário */
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+}
+
+.nav-pills li a:hover {
+    background-color: #2EC896;
+}
+
+.custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+  .content {
+    margin-left: 40px;
+    padding: 30px;
+    flex: 1;
+  }
+  
+  .content h1 {
+    font-size: 30px;
+  }
+  
+  .content video {
+    margin-top: 30px;
+    width: 720px;
+    height: 560px;
+  }
+  
+  .content label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content input[type="text"], .content textarea,.content select, .content input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .content input[type="submit"]{
+    background-color: rgb(58, 71, 253);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: blue;
+  }
+
+  .status{
+    background-color: white;
+  }

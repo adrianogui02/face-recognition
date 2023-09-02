@@ -1,0 +1,8 @@
+ervice firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if (request.origin == "https://valifacecallidus.web.app" && request.referrer.startsWith("https://valifacecallidus.web.app/cadastro.html")) ||
+                            (request.origin == "https://valifacecallidus.web.app" && request.referrer.startsWith("https://valifacecallidus.web.app/index.html"));
+    }
+  }
+}

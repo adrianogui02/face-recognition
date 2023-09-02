@@ -1,0 +1,116 @@
+/* styles.css */
+
+.users {
+    list-style-type: none;
+    margin-top:30px ;
+  }
+  
+  .users li {
+    margin-bottom: 10px;
+    background-color:#EDEDED;
+    border-radius: 10px;
+    width: 750px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .users li:hover {
+    background-color:#DBDBDB;
+  }
+  
+
+  .nav-pills li a:hover {
+    background-color: #2EC896;
+}
+
+.custom-circle {
+    background-color: #141533;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+  .content {
+    margin-left: 40px;
+    padding: 30px;
+  }
+  
+  .content h1 {
+    font-size: 30px;
+  }
+  
+  .content form {
+    margin-top: 30px;
+  }
+  
+  .content label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content input[type="text"], .content textarea,.content select, .content input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .content input[type="text"]:hover {
+    background-color: #DBDBDB;
+  }
+
+  .content input[type="submit"]{
+    background-color: rgb(58, 71, 253);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: blue;
+  }
+
+  .funcionario-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+    margin-left: 30px;
+  }
+  .nome_fun {
+    color: #333;
+    font-size: 22px;
+    margin-left: 10px;
+    
+  }
+  .cargo_fun {
+
+    color:white;
+    font-size: 22px;
+    background-color:#2B2D76;
+    margin-left: auto; /* Empurra o cargo para a extrema direita */
+    margin-right: 30px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .cargo_fun:hover {
+    background-color:#21235B;
+  }
+  
+  ul.ul {
+    margin-top: 10px;
+    padding-left: 0px;
+  }

@@ -1,0 +1,27 @@
+[debug] [2023-05-25T05:11:07.905Z] ----------------------------------------------------------------------
+[debug] [2023-05-25T05:11:07.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adria\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-05-25T05:11:07.906Z] CLI Version:   12.1.0
+[debug] [2023-05-25T05:11:07.907Z] Platform:      win32
+[debug] [2023-05-25T05:11:07.907Z] Node Version:  v18.12.1
+[debug] [2023-05-25T05:11:07.907Z] Time:          Thu May 25 2023 01:11:07 GMT-0400 (Horário Padrão do Amazonas)
+[debug] [2023-05-25T05:11:07.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-25T05:11:07.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-25T05:11:07.962Z] > authorizing via signed-in user (anvg.eng20@uea.edu.br)
+[debug] [2023-05-25T05:11:07.962Z] [iam] checking project valifacecallidus for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-25T05:11:07.964Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/valifacecallidus:testIamPermissions [none]
+[debug] [2023-05-25T05:11:07.964Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/valifacecallidus:testIamPermissions x-goog-quota-user=projects/valifacecallidus
+[debug] [2023-05-25T05:11:07.964Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/valifacecallidus:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-25T05:11:08.967Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/valifacecallidus:testIamPermissions 401
+[debug] [2023-05-25T05:11:08.968Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/valifacecallidus:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"service":"cloudresourcemanager.googleapis.com","method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions"}}]}}
+[debug] [2023-05-25T05:11:08.968Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-25T05:11:08.969Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/valifacecallidus [none]
+[debug] [2023-05-25T05:11:09.289Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/valifacecallidus 401
+[debug] [2023-05-25T05:11:09.289Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/valifacecallidus {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-25T05:11:09.289Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-25T05:11:09.607Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\adria\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\adria\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project valifacecallidus. Please make sure the project exists and your account has permission to access it.

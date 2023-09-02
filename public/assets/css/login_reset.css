@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    /*padding: 30px;*/
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  input::placeholder {
+    color: black;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    color: black;
+  }
+
+  button[type="submit"] {
+    background-color: rgb(58, 71, 253);
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 20%;
+    height: 25px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+
+  label{
+    font-size: 12px;
+  }
+
+  .image-container {
+    height: 100%;
+    width: 50%;
+    background-image: url("/ValiFaceDB/static/images/login_img.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+
+    .form-container,
+    .image-container {
+      width: 100%;
+    }
+}
